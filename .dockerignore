@@ -1,0 +1,55 @@
+# Git相关
+.git
+.gitignore
+.gitattributes
+
+# 文档
+README.md
+*.md
+
+# 开发工具
+.vscode
+.idea
+*.swp
+*.swo
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Node.js相关（如果有）
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+
+# 构建输出
+dist/
+build/
+*.egg-info/
+
+# 测试相关
+.coverage
+.pytest_cache/
+.tox/
+
+# 备份文件
+*.bak
+*.backup
